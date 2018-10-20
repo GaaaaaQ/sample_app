@@ -1,18 +1,32 @@
 
-install RubyGems
+1. install RubyGems
 ```
 $ bundle install --without production
 ```
-execute database migration
+2. execute database migration
 ```
 $ rails db:migrate
 ```
-check out system work
+3. check out system work
 ```
 $ rails test
 ```
-introduce server
+4. introduce server
 ```
 $ rails server
 ```
-# refference (https://railstutorial.jp/)
+5. generate ssh-key
+```
+$ cd ~/.ssh
+$ ssh-keygen
+$ cat ~/.ssh/id_rsa.pub
+
+```
+6. register ssh-key to your Github account
+
+Github Login
+=> push an icon on the right of the navbar
+=> push "Settings" on the pulldown list
+=> push "SSH and GPG keys" on the table on the leftside
+
+7. 
