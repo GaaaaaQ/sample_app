@@ -28,5 +28,6 @@ Github Login
 => push an icon on the right of the navbar
 => push "Settings" on the pulldown list
 => push "SSH and GPG keys" on the table on the leftside
+=> copy & paste the key into the textbox
 
-7. 
+7. push Heroku
