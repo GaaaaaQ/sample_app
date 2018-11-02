@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.4.1'
 
+# Use hash function
+gem 'bcrypt', '3.1.11'
 # Use Bootstrap as the framework of CSS
 gem 'bootstrap-sass'
 # Use Font Awesome as the framework of CSS
