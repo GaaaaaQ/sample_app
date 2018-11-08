@@ -47,3 +47,7 @@ $ heroku create
 ```
 $ git push heroku master
 ```
+# if you can't use heroku command
+```
+https://qiita.com/bdogrep/items/8620dbba5e4c3fd859df
+```
